@@ -6,6 +6,28 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/00-Loader/Loader.unity
+    path: Assets/00 Loader/Loader.unity
     guid: 2bf97b570e9f4534190d8a9f183cf211
+  - enabled: 1
+    path: Assets/01 Elastic boxes (stiffness demo)/01 Elastic boxes (stiffness demo).unity
+    guid: cfc48629813abc443abdaa1d64f6b7d6
+  - enabled: 1
+    path: Assets/02 Bouncing stars demo (shape matching demo)/02 Bouncing stars demo
+      (shape matching demo).unity
+    guid: 5bbf0a6ee8b248948982ee19d13ff7c4
+  - enabled: 1
+    path: Assets/03 Washing machine (collisions and dynamics demo)/03 Washing machine
+      (collisions and dynamics demo).unity
+    guid: 90fb6e017a8424a40a55cbf68c70e816
+  - enabled: 1
+    path: Assets/04 Boxes and ramps (friction demo)/04 Boxes and ramps (friction
+      demo).unity
+    guid: e892165a4788d6c47b728a91ec7849e8
+  - enabled: 1
+    path: Assets/05 Duck and weight (density demo)/05 Duck and weight (density demo).unity
+    guid: 46d82a4661dab8c4885fd76443ffc844
+  - enabled: 1
+    path: Assets/06 Boulder with ramp (collisions demo)/06 Boulder with ramp (collisions
+      demo).unity
+    guid: 8e16464deaef34b4898e3e81a4e29dc9
   m_configObjects: {}
