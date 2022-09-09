@@ -1471,7 +1471,7 @@ GameObject:
   - component: {fileID: 863987368}
   - component: {fileID: 863987380}
   m_Layer: 0
-  m_Name: Crate 1 (1)
+  m_Name: Crate 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2062,7 +2062,7 @@ GameObject:
   - component: {fileID: 1423646309}
   - component: {fileID: 1423646321}
   m_Layer: 0
-  m_Name: Crate 3 (1)
+  m_Name: Crate 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2302,7 +2302,7 @@ GameObject:
   - component: {fileID: 1719034356}
   - component: {fileID: 1719034368}
   m_Layer: 0
-  m_Name: Crate 2 (1)
+  m_Name: Crate 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

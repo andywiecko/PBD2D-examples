@@ -46,14 +46,14 @@
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.unity.burst": "1.6.3",
+        "com.unity.burst": "1.7.4",
         "com.unity.jobs": "0.11.0-preview.6",
-        "com.andywiecko.burst.mathutils": "1.1.0",
-        "com.andywiecko.burst.collections": "1.2.0",
+        "com.andywiecko.burst.mathutils": "1.3.0",
+        "com.andywiecko.burst.collections": "1.6.0",
         "com.andywiecko.burst.triangulator": "1.3.0",
-        "com.andywiecko.ecs": "0.1.0"
+        "com.andywiecko.ecs": "0.2.0"
       },
-      "hash": "ca325bbcc5805d54e402d13901595064ff181784"
+      "hash": "874f27ba20cdcce2ba2d691d7958b9309089120b"
     },
     "com.unity.2d.animation": {
       "version": "7.0.2",
@@ -141,7 +141,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.burst": {
-      "version": "1.6.3",
+      "version": "1.7.4",
       "depth": 1,
       "source": "registry",
       "dependencies": {
