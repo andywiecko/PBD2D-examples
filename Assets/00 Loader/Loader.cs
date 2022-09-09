@@ -1,3 +1,4 @@
+using andywiecko.PBD2D.Systems;
 using System.Collections;
 using System.Linq;
 using UnityEngine;
@@ -21,6 +22,7 @@ namespace andywiecko.PBD2D.Examples
 
         private void OnValidate()
         {
+#if UNITY_EDITOR
             var scenes = UnityEditor.EditorBuildSettings.scenes;
             names = UnityEditor.EditorBuildSettingsScene
                 .GetActiveSceneList(scenes)
@@ -29,6 +31,7 @@ namespace andywiecko.PBD2D.Examples
 
             scenesDropdown.ClearOptions();
             scenesDropdown.AddOptions(names[1..].ToList());
+#endif
         }
 
         private void Start()
@@ -38,12 +41,18 @@ namespace andywiecko.PBD2D.Examples
                 return;
             }
 
+            scenesDropdown.ClearOptions();
+            scenesDropdown.AddOptions(names[1..].ToList());
+
             SceneManager.LoadScene(sceneId = 1, LoadSceneMode.Additive);
 
             scenesDropdown.onValueChanged
                 .AddListener(new(i => StartCoroutine(nameof(ChangeScene), i + 1)));
             reloadButton.onClick
                 .AddListener(new(() => StartCoroutine(nameof(ChangeScene), sceneId)));
+
+            // HACK: required for build, unity strips the unused namespaces
+            _ = new BoundsSystem();
         }
 
         private IEnumerator ChangeScene(int i)
