@@ -146,7 +146,7 @@ GameObject:
   - component: {fileID: 150647161}
   - component: {fileID: 150647162}
   m_Layer: 0
-  m_Name: Box 1
+  m_Name: Hex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -454,7 +454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 276597349}
-  speed: 0.5
+  speed: 0.7
 --- !u!1 &336232177
 GameObject:
   m_ObjectHideFlags: 0
@@ -1058,7 +1058,7 @@ GameObject:
   - component: {fileID: 606331501}
   - component: {fileID: 606331500}
   m_Layer: 0
-  m_Name: Triangle 1
+  m_Name: Triangle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1457,7 +1457,7 @@ GameObject:
   - component: {fileID: 1380400533}
   - component: {fileID: 1380400532}
   m_Layer: 0
-  m_Name: Box 2
+  m_Name: Rectangle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1928,7 +1928,7 @@ GameObject:
   - component: {fileID: 1719450226}
   - component: {fileID: 1719450225}
   m_Layer: 0
-  m_Name: Box 1 (1)
+  m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
