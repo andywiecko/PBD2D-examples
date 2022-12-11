@@ -41,6 +41,8 @@ namespace andywiecko.PBD2D.Examples
                 return;
             }
 
+            Application.targetFrameRate = 60;
+
             scenesDropdown.ClearOptions();
             scenesDropdown.AddOptions(names[1..].ToList());
 
