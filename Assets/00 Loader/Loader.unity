@@ -573,6 +573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -1561,6 +1562,10 @@ MonoBehaviour:
   - 04 Boxes and ramps (friction demo)
   - 05 Duck and weight (density demo)
   - 06 Boulder with ramp (collisions demo)
+  - 07 Triple elastic pendulum (connectors demo)
+  - 08 Elastic Newtons Cradle (physics demo)
+  - 09 Trampoline (lockers and connectors demo)
+  - 10 Xmas tree (tree simulation demo)
   scenesDropdown: {fileID: 2080974781}
   reloadButton: {fileID: 38488517}
 --- !u!4 &2053744784
@@ -1680,6 +1685,14 @@ MonoBehaviour:
     - m_Text: 05 Duck and weight (density demo)
       m_Image: {fileID: 0}
     - m_Text: 06 Boulder with ramp (collisions demo)
+      m_Image: {fileID: 0}
+    - m_Text: 07 Triple elastic pendulum (connectors demo)
+      m_Image: {fileID: 0}
+    - m_Text: 08 Elastic Newtons Cradle (physics demo)
+      m_Image: {fileID: 0}
+    - m_Text: 09 Trampoline (lockers and connectors demo)
+      m_Image: {fileID: 0}
+    - m_Text: 10 Xmas tree (tree simulation demo)
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
