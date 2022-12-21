@@ -30,4 +30,20 @@ EditorBuildSettings:
     path: Assets/06 Boulder with ramp (collisions demo)/06 Boulder with ramp (collisions
       demo).unity
     guid: 8e16464deaef34b4898e3e81a4e29dc9
+  - enabled: 1
+    path: Assets/07 Triple elastic pendulum (connectors demo)/07 Triple elastic pendulum
+      (connectors demo).unity
+    guid: af8d5a7e3d36375408be90b767e1cf8f
+  - enabled: 1
+    path: Assets/08 Elastic Newtons Cradle (physics demo)/08 Elastic Newtons Cradle
+      (physics demo).unity
+    guid: a2051cebd5a30bd4cb4eb11948062b5b
+  - enabled: 1
+    path: Assets/09 Trampoline (lockers and connectors demo)/09 Trampoline (lockers
+      and connectors demo).unity
+    guid: 31ada4aa071af7146804ad3859716154
+  - enabled: 1
+    path: Assets/10 Xmas tree (tree simulation demo)/10 Xmas tree (tree simulation
+      demo).unity
+    guid: e37d9929900153a4cbd5c3a84bff3a23
   m_configObjects: {}
