@@ -2790,7 +2790,7 @@ MonoBehaviour:
     Value: 1
   - Type:
       <Guid>k__BackingField: 26dae6751e5c4644584e5dcab09bd924
-      <AssemblyQualifiedName>k__BackingField: andywiecko.PBD2D.Systems.PositionConstraintsSystem,
+      <AssemblyQualifiedName>k__BackingField: andywiecko.PBD2D.Systems.PositionSoftConstraintsSystem,
         andywiecko.PBD2D.Systems, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
     Value: 1
   - Type:
